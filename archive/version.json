@@ -303,6 +303,7 @@
             "version": "0.2",
             "uri": "qrc.js",
             "dependency": {
+                "client": "1.0.5.0",
                 "libs": [
                     "Parser Extension"
                 ]
@@ -318,20 +319,28 @@
     "libs": [
         {
             "name": "CryptoES",
-            "uri": "crypto-es.zip"
+            "uri": "crypto-es.zip",
+            "hash": "680bb848a95a7d50cdbfe44448709925"
         },
         {
             "name": "querystring",
-            "uri": "querystring.zip"
+            "uri": "querystring.zip",
+            "hash": "7e4932477468049a57c5f24f1164e9ad"
         },
         {
             "name": "himalaya",
-            "uri": "himalaya.zip"
+            "uri": "himalaya.zip",
+            "hash": "ee00a9708d10de78c6efc818ef2a0bea"
         },
         {
             "name": "Parser Extension",
             "uri": "parser_ext.so.zip",
-            "hash": "1b7377e85d9d6b1c048c6a9fe1204b3c"
+            "hash": "5764e793e8d857cb3b517c2f56228a0c",
+            "x64":
+            {
+                "uri": "parser_ext.64.so.zip",
+                "hash":"fce3418a7e56e406922f6fccae935fb1"
+            }
         }
     ]
 }
